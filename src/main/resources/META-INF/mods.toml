@@ -1,0 +1,35 @@
+
+modLoader="javafml"
+
+loaderVersion="[0,)"
+license="MIT"
+[[mods]]
+
+modId="corruption"
+
+version="0.0.4"
+
+displayName="Corruption Infection"
+authors=["ByteChen", "TheFine", "ByteChen's audience"]
+description='''A mod created by '''
+
+[[dependencies.corruption]]
+    modId="forge"
+
+    mandatory=true
+
+    versionRange="[40.2.0,)"
+
+    ordering="NONE"
+
+    side="BOTH"
+[[dependencies.corruption]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.corruption]]
+modId = "geckolib"
+mandatory = true
+versionRange = "[0,)"
