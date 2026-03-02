@@ -1,3 +1,21 @@
 {
-  "corruption.entity.infection_zombie": "感染僵尸"
+  "itemGroup.corruption.corruption_tech": "腐化科技",
+
+  "entity.corruption.infection_zombie": "感染僵尸",
+  "item.corruption.infection_zombie_spawn_egg": "感染僵尸刷怪蛋",
+
+  "entity.corruption.infection_sheep": "感染羊",
+  "item.corruption.infection_sheep_spawn_egg": "感染羊刷怪蛋",
+
+  "entity.corruption.infection_pig": "感染猪",
+  "item.corruption.infection_pig_spawn_egg": "感染猪刷怪蛋",
+
+  "entity.corruption.infection_cow": "感染牛",
+  "item.corruption.infection_cow_spawn_egg": "感染牛刷怪蛋",
+
+  "item.corruption.infection_leather": "腐烂皮革",
+  "item.corruption.infection_meat": "腐烂的肉",
+
+
+  "effect.corruption.corruption": "腐化"
 }

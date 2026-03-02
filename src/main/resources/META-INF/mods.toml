@@ -7,11 +7,11 @@ license="MIT"
 
 modId="corruption"
 
-version="0.0.4"
+version="0.0.1"
 
 displayName="Corruption Infection"
 authors=["ByteChen", "TheFine", "ByteChen's audience"]
-description='''A mod created by '''
+description='''A mod created by ByteChen's audience'''
 
 [[dependencies.corruption]]
     modId="forge"

@@ -1,11 +1,12 @@
 package corruption.entity.custom.baseEntity;
 
-
 import corruption.api.IBaseEntity;
+import corruption.world.data.DifficultyData;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.network.syncher.EntityDataAccessor;
 import net.minecraft.network.syncher.EntityDataSerializers;
 import net.minecraft.network.syncher.SynchedEntityData;
+import net.minecraft.server.level.ServerLevel;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.EntityType;
@@ -420,8 +421,15 @@ public class BaseMob extends PathfinderMob implements GeoEntity, IBaseEntity {
         this.kind = kind;
     }
 
-
-
+    public int getDifficultNumber() {
+        Level level = this.level();
+        // 仅在服务端且 level 是 ServerLevel 时获取真实难度
+        if (!level.isClientSide && level instanceof ServerLevel serverLevel) {
+            return DifficultyData.get(serverLevel).getDifficulty().getValue();
+        }
+        // 客户端返回默认值（例如 0 或和平难度 0）
+        return 0;
+    }
 
     public String getKind() {
         return kind;
@@ -753,6 +761,35 @@ public class BaseMob extends PathfinderMob implements GeoEntity, IBaseEntity {
             super.die(damageSource);
             this.onEntityDie();
         }
+    }
+
+    // =============== 修复：假死时禁止AI、移动和推动 ===============
+    @Override
+    public boolean isEffectiveAi() {
+        // 假死状态下不执行任何AI逻辑（包括移动、目标选择、头部旋转等）
+        if (this.isFakeDying()) {
+            return false;
+        }
+        return super.isEffectiveAi();
+    }
+
+    @Override
+    public void travel(Vec3 travelVector) {
+        if (this.isFakeDying()) {
+            // 假死时禁止移动，速度强制归零
+            this.setDeltaMovement(Vec3.ZERO);
+            return;
+        }
+        super.travel(travelVector);
+    }
+
+    @Override
+    public boolean isPushable() {
+        // 假死时禁止被其他实体推动
+        if (this.isFakeDying()) {
+            return false;
+        }
+        return super.isPushable();
     }
 
     //=============== 性能监控方法（可选）===============

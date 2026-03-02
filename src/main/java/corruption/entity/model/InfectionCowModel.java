@@ -1,12 +1,12 @@
 package corruption.entity.model;
 
 import corruption.CorruptionMod;
-import corruption.entity.custom.host.InfectionZombie;
+import corruption.entity.custom.host.InfectionCow;
 import net.minecraft.resources.ResourceLocation;
 import software.bernie.geckolib.model.GeoModel;
 
-public class InfectionZombieModel extends GeoModel<InfectionZombie> {
-    private static String registerName= InfectionZombie.registryName;
+public class InfectionCowModel extends GeoModel<InfectionCow> {
+    private static String registerName=InfectionCow.registryName;
     private static final ResourceLocation MODEL = new ResourceLocation(
             CorruptionMod.MODID, "geo/entity/" + registerName + ".geo.json"
     );
@@ -17,17 +17,17 @@ public class InfectionZombieModel extends GeoModel<InfectionZombie> {
             CorruptionMod.MODID, "animations/entity/"+registerName+".animation.json"
     );
     @Override
-    public ResourceLocation getModelResource(InfectionZombie animatable) {
+    public ResourceLocation getModelResource(InfectionCow animatable) {
         return MODEL;
     }
 
     @Override
-    public ResourceLocation getTextureResource(InfectionZombie animatable) {
+    public ResourceLocation getTextureResource(InfectionCow animatable) {
         return TEXTURE;
     }
 
     @Override
-    public ResourceLocation getAnimationResource(InfectionZombie animatable) {
+    public ResourceLocation getAnimationResource(InfectionCow animatable) {
         return ANIMATION;
     }
 }
