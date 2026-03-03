@@ -1,3 +1,26 @@
 {
-
+  "itemGroup.corruption.corruption_tech": "Corruption Tech",
+  "entity.corruption.infection_zombie": "Infected Zombie",
+  "item.corruption.infection_zombie_spawn_egg": "Infected Zombie Spawn Egg",
+  "entity.corruption.infection_sheep": "Infected Sheep",
+  "item.corruption.infection_sheep_spawn_egg": "Infected Sheep Spawn Egg",
+  "entity.corruption.infection_pig": "Infected Pig",
+  "item.corruption.infection_pig_spawn_egg": "Infected Pig Spawn Egg",
+  "entity.corruption.infection_cow": "Infected Cow",
+  "item.corruption.infection_cow_spawn_egg": "Infected Cow Spawn Egg",
+  "entity.corruption.infection_villager": "Infected Villager",
+  "item.corruption.infection_villager_spawn_egg": "Infected Villager Spawn Egg",
+  "entity.corruption.infection_spider": "Infected Spider",
+  "item.corruption.infection_spider_spawn_egg": "Infected Spider Spawn Egg",
+  "entity.corruption.long_arm_beast": "Long Arm Beast",
+  "item.corruption.long_arm_beast_tooth": "Long Arm Beast Tooth",
+  "item.corruption.long_arm_beast_spawn_egg": "Long Arm Beast Spawn Egg",
+  "subtitles.corruption.long_arm_beast_call_1": "Long Arm Beast roars",
+  "subtitles.corruption.long_arm_beast_call_2": "Long Arm Beast roars",
+  "item.corruption.infection_leather": "Rotten Leather",
+  "item.corruption.infection_meat": "Rotten Meat",
+  "block.corruption.host_remains_small": "Small Host Remains",
+  "block.corruption.host_remains_medium": "Medium Host Remains",
+  "block.corruption.host_remains_large": "Large Host Remains",
+  "effect.corruption.corruption": "Corruption"
 }

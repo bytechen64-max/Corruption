@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "corruption:block/host_remains_small",
+      "x": 180
+    },
+    "facing=up": {
+      "model": "corruption:block/host_remains_small"
+    },
+    "facing=north": {
+      "model": "corruption:block/host_remains_small",
+      "x": 90
+    },
+    "facing=south": {
+      "model": "corruption:block/host_remains_small",
+      "x": 90,
+      "y": 180
+    },
+    "facing=west": {
+      "model": "corruption:block/host_remains_small",
+      "x": 90,
+      "y": 270
+    },
+    "facing=east": {
+      "model": "corruption:block/host_remains_small",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

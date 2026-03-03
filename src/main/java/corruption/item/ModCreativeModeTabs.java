@@ -1,6 +1,7 @@
 package corruption.item;
 
 import corruption.CorruptionMod;
+import corruption.block.ModBlocks;
 import corruption.init.ModItems;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
@@ -20,11 +21,19 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("itemGroup."+CorruptionMod.MODID+".corruption_tech"))
                     .displayItems((parameters, output) -> {
                         output.accept(ModItems.INFECTION_ZOMBIE_SPAWN_EGG.get());
+                        output.accept(ModItems.INFECTION_VILLAGER_SPAWN_EGG.get());
                         output.accept(ModItems.INFECTION_SHEEP_SPAWN_EGG.get());
                         output.accept(ModItems.INFECTION_PIG_SPAWN_EGG.get());
                         output.accept(ModItems.INFECTION_COW_SPAWN_EGG.get());
+                        output.accept(ModItems.INFECTION_SPIDER_SPAWN_EGG.get());
+                        output.accept(ModItems.LONG_ARM_BEAST_SPAWN_EGG.get());
                         output.accept(ModItems.INFECTION_LEATHER.get());
                         output.accept(ModItems.INFECTION_MEAT.get());
+                        output.accept(ModItems.INFECTION_HEART.get());
+                        output.accept(ModItems.LONG_ARM_BEAST_TOOTH.get());
+                        output.accept(ModBlocks.HOST_REMAINS_SMALL.get());
+                        output.accept(ModBlocks.HOST_REMAINS_MEDIUM.get());
+                        output.accept(ModBlocks.HOST_REMAINS_LARGE.get());
                     })
                     .build());
     public static void register(IEventBus eventBus) {

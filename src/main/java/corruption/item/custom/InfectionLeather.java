@@ -1,4 +1,4 @@
-package corruption.item.mod_items;
+package corruption.item.custom;
 
 import net.minecraft.world.item.Item;
 

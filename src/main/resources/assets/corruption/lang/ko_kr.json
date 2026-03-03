@@ -1,3 +1,26 @@
 {
-
+  "itemGroup.corruption.corruption_tech": "부패 테크",
+  "entity.corruption.infection_zombie": "감염된 좀비",
+  "item.corruption.infection_zombie_spawn_egg": "감염된 좀비 생성 알",
+  "entity.corruption.infection_sheep": "감염된 양",
+  "item.corruption.infection_sheep_spawn_egg": "감염된 양 생성 알",
+  "entity.corruption.infection_pig": "감염된 돼지",
+  "item.corruption.infection_pig_spawn_egg": "감염된 돼지 생성 알",
+  "entity.corruption.infection_cow": "감염된 소",
+  "item.corruption.infection_cow_spawn_egg": "감염된 소 생성 알",
+  "entity.corruption.infection_villager": "감염된 주민",
+  "item.corruption.infection_villager_spawn_egg": "감염된 주민 생성 알",
+  "entity.corruption.infection_spider": "감염된 거미",
+  "item.corruption.infection_spider_spawn_egg": "감염된 거미 생성 알",
+  "entity.corruption.long_arm_beast": "긴팔 야수",
+  "item.corruption.long_arm_beast_tooth": "긴팔 야수의 이빨",
+  "item.corruption.long_arm_beast_spawn_egg": "긴팔 야수 생성 알",
+  "subtitles.corruption.long_arm_beast_call_1": "긴팔 야수가 포효하다",
+  "subtitles.corruption.long_arm_beast_call_2": "긴팔 야수가 포효하다",
+  "item.corruption.infection_leather": "썩은 가죽",
+  "item.corruption.infection_meat": "썩은 고기",
+  "block.corruption.host_remains_small": "작은 숙주 잔해",
+  "block.corruption.host_remains_medium": "중간 숙주 잔해",
+  "block.corruption.host_remains_large": "큰 숙주 잔해",
+  "effect.corruption.corruption": "부패"
 }

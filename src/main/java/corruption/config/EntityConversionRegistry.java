@@ -45,6 +45,8 @@ public class EntityConversionRegistry {
         EFFECT_CONVERSIONS.put(EntityType.SHEEP, () -> ModEntities.INFECTION_SHEEP.get());
         EFFECT_CONVERSIONS.put(EntityType.PIG, () -> ModEntities.INFECTION_PIG.get());
         EFFECT_CONVERSIONS.put(EntityType.COW, () -> ModEntities.INFECTION_COW.get());
+        EFFECT_CONVERSIONS.put(EntityType.VILLAGER, () -> ModEntities.INFECTION_VILLAGER.get());
+        EFFECT_CONVERSIONS.put(EntityType.SPIDER, () -> ModEntities.INFECTION_SPIDER.get());
         // 更多 EFFECT 转换...
     }
 

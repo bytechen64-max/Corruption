@@ -13,9 +13,25 @@
   "entity.corruption.infection_cow": "感染牛",
   "item.corruption.infection_cow_spawn_egg": "感染牛刷怪蛋",
 
+  "entity.corruption.infection_villager": "感染村民",
+  "item.corruption.infection_villager_spawn_egg": "感染村民刷怪蛋",
+
+  "entity.corruption.infection_spider": "感染蜘蛛",
+  "item.corruption.infection_spider_spawn_egg": "感染蜘蛛刷怪蛋",
+
+  "entity.corruption.long_arm_beast": "长臂兽",
+  "item.corruption.long_arm_beast_tooth": "长臂兽齿",
+  "item.corruption.long_arm_beast_spawn_egg": "长臂兽刷怪蛋",
+  "subtitles.corruption.long_arm_beast_call_1": "长臂兽嘶吼",
+  "subtitles.corruption.long_arm_beast_call_2": "长臂兽嘶吼",
+
   "item.corruption.infection_leather": "腐烂皮革",
   "item.corruption.infection_meat": "腐烂的肉",
+  "item.corruption.infection_heart": "腐烂的心脏",
 
+  "block.corruption.host_remains_small": "小型腐化种残骸",
+  "block.corruption.host_remains_medium": "中型腐化种残骸",
+  "block.corruption.host_remains_large": "大型腐化种残骸",
 
   "effect.corruption.corruption": "腐化"
 }

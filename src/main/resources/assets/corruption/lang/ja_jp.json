@@ -1,3 +1,26 @@
 {
-
+  "itemGroup.corruption.corruption_tech": "腐敗テック",
+  "entity.corruption.infection_zombie": "感染ゾンビ",
+  "item.corruption.infection_zombie_spawn_egg": "感染ゾンビのスポーンエッグ",
+  "entity.corruption.infection_sheep": "感染ヒツジ",
+  "item.corruption.infection_sheep_spawn_egg": "感染ヒツジのスポーンエッグ",
+  "entity.corruption.infection_pig": "感染ブタ",
+  "item.corruption.infection_pig_spawn_egg": "感染ブタのスポーンエッグ",
+  "entity.corruption.infection_cow": "感染ウシ",
+  "item.corruption.infection_cow_spawn_egg": "感染ウシのスポーンエッグ",
+  "entity.corruption.infection_villager": "感染村人",
+  "item.corruption.infection_villager_spawn_egg": "感染村人のスポーンエッグ",
+  "entity.corruption.infection_spider": "感染クモ",
+  "item.corruption.infection_spider_spawn_egg": "感染クモのスポーンエッグ",
+  "entity.corruption.long_arm_beast": "ロングアームビースト",
+  "item.corruption.long_arm_beast_tooth": "ロングアームビーストの牙",
+  "item.corruption.long_arm_beast_spawn_egg": "ロングアームビーストのスポーンエッグ",
+  "subtitles.corruption.long_arm_beast_call_1": "ロングアームビーストが吠える",
+  "subtitles.corruption.long_arm_beast_call_2": "ロングアームビーストが吠える",
+  "item.corruption.infection_leather": "腐った革",
+  "item.corruption.infection_meat": "腐った肉",
+  "block.corruption.host_remains_small": "小さな宿主の残骸",
+  "block.corruption.host_remains_medium": "中くらいの宿主の残骸",
+  "block.corruption.host_remains_large": "大きな宿主の残骸",
+  "effect.corruption.corruption": "腐敗"
 }

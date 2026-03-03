@@ -1,3 +1,13 @@
-{
 
+{
+  "long_arm_beast_call_1": {
+    "sounds": ["corruption:long_arm_beast_call_1"],
+    "subtitle": "subtitles.corruption.long_arm_beast_call_1",
+    "category": "hostile"
+  },
+  "long_arm_beast_call_2": {
+    "sounds": ["corruption:long_arm_beast_call_2"],
+    "subtitle": "subtitles.corruption.long_arm_beast_call_2",
+    "category": "hostile"
+  }
 }

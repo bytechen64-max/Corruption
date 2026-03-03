@@ -40,7 +40,7 @@ public class BaseMob extends PathfinderMob implements GeoEntity, IBaseEntity {
     protected float doHurtDistance = 0;
     protected int dieRandom = 50;
     protected int dieTime = 0;
-    protected int fakeDeathTimer = 30;
+    protected int fakeDeathTimer = 300;
     protected boolean attackSameKind = false; // 新增：是否攻击同种类生物
 
     //=============== 状态标志 ===============
@@ -555,7 +555,8 @@ public class BaseMob extends PathfinderMob implements GeoEntity, IBaseEntity {
         if (isFakeDying()) {
             if (fakeDeathTimer > 0) {
                 fakeDeathTimer--;
-            } else {
+            }
+            else {
                 this.remove(RemovalReason.KILLED);
                 this.onDieAnimEnd();
             }

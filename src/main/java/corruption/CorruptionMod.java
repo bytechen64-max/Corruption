@@ -1,10 +1,9 @@
 package corruption;
 
+import corruption.block.ModBlocks;
 import corruption.config.BasicWorldConfig;
 import corruption.config.EntityExchangeRuleConfig;
-import corruption.init.ModEffects;
-import corruption.init.ModEntities;
-import corruption.init.ModItems;
+import corruption.init.*;
 import corruption.item.ModCreativeModeTabs;
 import net.minecraftforge.client.event.EntityRenderersEvent;
 import net.minecraftforge.common.MinecraftForge;
@@ -35,7 +34,10 @@ public class CorruptionMod {
         MinecraftForge.EVENT_BUS.register(this);
         ModEntities.ENTITIES.register(modEventBus);
         ModItems.ITEMS.register(modEventBus);
+        ModBlocks.BLOCKS.register(modEventBus);
         ModEffects.EFFECTS.register(modEventBus);
+        ModParticles.PARTICLE_TYPES.register(modEventBus);
+        ModSounds.SOUND_EVENTS.register(modEventBus);
         ModCreativeModeTabs.CREATEMOBSTABS.register(modEventBus);
         Mixins.addConfiguration("corruption.mixins.json");
         if (MixinEnvironment.getDefaultEnvironment().getObfuscationContext() == null) {

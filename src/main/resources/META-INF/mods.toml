@@ -9,9 +9,9 @@ modId="corruption"
 
 version="0.0.1"
 
-displayName="Corruption Infection"
+displayName="Rotten Ruins"
 authors=["ByteChen", "TheFine", "ByteChen's audience"]
-description='''A mod created by ByteChen's audience'''
+description='''horror-themed Infection Mod'''
 
 [[dependencies.corruption]]
     modId="forge"
