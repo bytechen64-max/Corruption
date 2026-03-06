@@ -2,6 +2,7 @@ package corruption.init;
 
 import corruption.CorruptionMod;
 import corruption.effects.CorruptionEffect;
+import corruption.effects.InstantDeathEffect;
 import net.minecraft.world.effect.MobEffect;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -12,4 +13,6 @@ public class ModEffects {
             DeferredRegister.create(ForgeRegistries.MOB_EFFECTS, CorruptionMod.MODID);
     public static final RegistryObject<MobEffect> CORRUPTION=
             EFFECTS.register("corruption",CorruptionEffect::new);
+    public static final RegistryObject<MobEffect> INSTANT_DEATH=
+            EFFECTS.register("instant_death", InstantDeathEffect::new);
 }

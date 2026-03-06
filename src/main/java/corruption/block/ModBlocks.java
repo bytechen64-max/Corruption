@@ -1,9 +1,7 @@
 package corruption.block;
 
 import corruption.CorruptionMod;
-import corruption.block.custom.blocks.HostRemainsLarge;
-import corruption.block.custom.blocks.HostRemainsMedium;
-import corruption.block.custom.blocks.HostRemainsSmall;
+import corruption.block.custom.blocks.*;
 import corruption.init.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
@@ -34,5 +32,29 @@ public class ModBlocks {
             new Item.Properties());
     public static final RegistryObject<Block> HOST_REMAINS_LARGE = registerBlock("host_remains_large",
             () -> new HostRemainsLarge(BlockBehaviour.Properties.copy(Blocks.GRASS_BLOCK)),
+            new Item.Properties());
+    public static final RegistryObject<Block> INFECTION_COAL_ORE = registerBlock("infection_coal_ore",
+            () -> new InfectionCoalOre(BlockBehaviour.Properties.copy(Blocks.STONE)),
+            new Item.Properties());
+    public static final RegistryObject<Block> INFECTION_COPPER_ORE = registerBlock("infection_copper_ore",
+            () -> new InfectionCopperOre(BlockBehaviour.Properties.copy(Blocks.STONE)),
+            new Item.Properties());
+    public static final RegistryObject<Block> INFECTION_IRON_ORE = registerBlock("infection_iron_ore",
+            () -> new InfectionIronOre(BlockBehaviour.Properties.copy(Blocks.STONE)),
+            new Item.Properties());
+    public static final RegistryObject<Block> INFECTION_REDSTONE_ORE = registerBlock("infection_redstone_ore",
+            () -> new InfectionRedstoneOre(BlockBehaviour.Properties.copy(Blocks.STONE)),
+            new Item.Properties());
+    public static final RegistryObject<Block> INFECTION_EMERALD_ORE = registerBlock("infection_emerald_ore",
+            () -> new InfectionEmeraldOre(BlockBehaviour.Properties.copy(Blocks.STONE)),
+            new Item.Properties());
+    public static final RegistryObject<Block> INFECTION_LAPIS_ORE = registerBlock("infection_lapis_ore",
+            () -> new InfectionLapisOre(BlockBehaviour.Properties.copy(Blocks.STONE)),
+            new Item.Properties());
+    public static final RegistryObject<Block> INFECTION_GOLD_ORE = registerBlock("infection_gold_ore",
+            () -> new InfectionGoldOre(BlockBehaviour.Properties.copy(Blocks.STONE)),
+            new Item.Properties());
+    public static final RegistryObject<Block> INFECTION_DIAMOND_ORE = registerBlock("infection_diamond_ore",
+            () -> new InfectionDiamondOre(BlockBehaviour.Properties.copy(Blocks.STONE)),
             new Item.Properties());
 }

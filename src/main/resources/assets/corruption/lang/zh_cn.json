@@ -25,6 +25,11 @@
   "subtitles.corruption.long_arm_beast_call_1": "长臂兽嘶吼",
   "subtitles.corruption.long_arm_beast_call_2": "长臂兽嘶吼",
 
+  "entity.corruption.shocker": "震撼者",
+  "item.corruption.shocker_spawn_egg": "震撼者刷怪蛋",
+
+
+
   "item.corruption.infection_leather": "腐烂皮革",
   "item.corruption.infection_meat": "腐烂的肉",
   "item.corruption.infection_heart": "腐烂的心脏",
@@ -32,6 +37,19 @@
   "block.corruption.host_remains_small": "小型腐化种残骸",
   "block.corruption.host_remains_medium": "中型腐化种残骸",
   "block.corruption.host_remains_large": "大型腐化种残骸",
+  "block.corruption.infection_coal_ore": "感染煤矿石",
+  "block.corruption.infection_copper_ore": "感染铜矿石",
+  "block.corruption.infection_iron_ore": "感染铁矿石",
+  "block.corruption.infection_redstone_ore": "感染红石矿石",
+  "block.corruption.infection_emerald_ore": "感染绿宝石矿石",
+  "block.corruption.infection_lapis_ore": "感染青金石矿石",
+  "block.corruption.infection_gold_ore": "感染黄金矿石",
+  "block.corruption.infection_diamond_ore": "感染钻石矿石",
+
+  "item.corruption.vice_template": "罪恶模板",
+
+
+
 
   "effect.corruption.corruption": "腐化"
 }

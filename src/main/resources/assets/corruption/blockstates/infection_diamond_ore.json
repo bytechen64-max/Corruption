@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "":
+    { "model": "corruption:block/infection_diamond_ore" }
+  }
+}

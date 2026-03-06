@@ -1,0 +1,8 @@
+
+
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "corruption:item/vice_template"
+  }
+}

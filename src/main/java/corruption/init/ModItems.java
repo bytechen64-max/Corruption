@@ -3,10 +3,8 @@ package corruption.init;
 import corruption.CorruptionMod;
 import corruption.entity.custom.host.*;
 import corruption.entity.custom.refactored.LongArmBeast;
-import corruption.item.custom.InfectionHeart;
-import corruption.item.custom.InfectionLeather;
-import corruption.item.custom.InfectionMeat;
-import corruption.item.custom.LongArmBeastTooth;
+import corruption.entity.custom.refactored.Shocker;
+import corruption.item.custom.*;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.common.ForgeSpawnEggItem;
 import net.minecraftforge.registries.DeferredRegister;
@@ -44,6 +42,10 @@ public class ModItems {
             LongArmBeast.registryName+"_spawn_egg",
             () -> new ForgeSpawnEggItem(ModEntities.LONG_ARM_BEAST, -1, -1, new Item.Properties()
                     .stacksTo(64)));
+    public static final RegistryObject<Item> SHOCKER_SPAWN_EGG = ITEMS.register(
+            Shocker.registryName+"_spawn_egg",
+            () -> new ForgeSpawnEggItem(ModEntities.SHOCKER, -1, -1, new Item.Properties()
+                    .stacksTo(64)));
     public static final RegistryObject<Item> INFECTION_LEATHER = ITEMS.register(
             "infection_leather",
             () -> new InfectionLeather(
@@ -67,5 +69,11 @@ public class ModItems {
             () -> new LongArmBeastTooth(
                     new Item.Properties()
                             .stacksTo(64)
+            ));
+    public static final RegistryObject<Item> VICE_TEMPLATE = ITEMS.register(
+            "vice_template",
+            () -> new ViceTemplate(
+                    new Item.Properties()
+                            .stacksTo(12)
             ));
 }

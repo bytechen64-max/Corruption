@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "corruption:block/infection_copper_ore"
+  }
+}

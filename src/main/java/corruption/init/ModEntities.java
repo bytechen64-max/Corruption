@@ -3,6 +3,7 @@ package corruption.init;
 import corruption.CorruptionMod;
 import corruption.entity.custom.host.*;
 import corruption.entity.custom.refactored.LongArmBeast;
+import corruption.entity.custom.refactored.Shocker;
 import corruption.entity.renderer.*;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.MobCategory;
@@ -52,6 +53,11 @@ public class ModEntities
                     () -> EntityType.Builder.of(LongArmBeast::new, MobCategory.MONSTER)
                             .sized(1.3f, 3.5f)
                             .build(LongArmBeast.registryName));
+    public static final RegistryObject<EntityType<Shocker>> SHOCKER =
+            ENTITIES.register(Shocker.registryName,
+                    () -> EntityType.Builder.of(Shocker::new, MobCategory.MONSTER)
+                            .sized(1.3f, 2.8f)
+                            .build(Shocker.registryName));
 
     public static void registerAttributesUnit(EntityAttributeCreationEvent event) {
         event.put(ModEntities.INFECTION_ZOMBIE.get(), InfectionZombie.createAttributes().build());
@@ -61,6 +67,7 @@ public class ModEntities
         event.put(ModEntities.INFECTION_COW.get(), InfectionCow.createAttributes().build());
         event.put(ModEntities.INFECTION_SPIDER.get(), InfectionSpider.createAttributes().build());
         event.put(ModEntities.LONG_ARM_BEAST.get(), LongArmBeast.createAttributes().build());
+        event.put(ModEntities.SHOCKER.get(), Shocker.createAttributes().build());
     }
     public static void registerRenderers(EntityRenderersEvent.RegisterRenderers event) {
         event.registerEntityRenderer(ModEntities.INFECTION_ZOMBIE.get(), InfectionZombieRenderer::new);
@@ -70,6 +77,7 @@ public class ModEntities
         event.registerEntityRenderer(ModEntities.INFECTION_COW.get(), InfectionCowRenderer::new);
         event.registerEntityRenderer(ModEntities.INFECTION_SPIDER.get(), InfectionSpiderRenderer::new);
         event.registerEntityRenderer(ModEntities.LONG_ARM_BEAST.get(), LongArmBeastRenderer::new);
+        event.registerEntityRenderer(ModEntities.SHOCKER.get(), ShockerRenderer::new);
 
     }
 }

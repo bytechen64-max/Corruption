@@ -27,6 +27,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.INFECTION_COW_SPAWN_EGG.get());
                         output.accept(ModItems.INFECTION_SPIDER_SPAWN_EGG.get());
                         output.accept(ModItems.LONG_ARM_BEAST_SPAWN_EGG.get());
+                        output.accept(ModItems.SHOCKER_SPAWN_EGG.get());
                         output.accept(ModItems.INFECTION_LEATHER.get());
                         output.accept(ModItems.INFECTION_MEAT.get());
                         output.accept(ModItems.INFECTION_HEART.get());
@@ -34,6 +35,15 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.HOST_REMAINS_SMALL.get());
                         output.accept(ModBlocks.HOST_REMAINS_MEDIUM.get());
                         output.accept(ModBlocks.HOST_REMAINS_LARGE.get());
+                        output.accept(ModBlocks.INFECTION_COAL_ORE.get());
+                        output.accept(ModBlocks.INFECTION_COPPER_ORE.get());
+                        output.accept(ModBlocks.INFECTION_IRON_ORE.get());
+                        output.accept(ModBlocks.INFECTION_REDSTONE_ORE.get());
+                        output.accept(ModBlocks.INFECTION_EMERALD_ORE.get());
+                        output.accept(ModBlocks.INFECTION_LAPIS_ORE.get());
+                        output.accept(ModBlocks.INFECTION_GOLD_ORE.get());
+                        output.accept(ModBlocks.INFECTION_DIAMOND_ORE.get());
+                        output.accept(ModItems.VICE_TEMPLATE.get());
                     })
                     .build());
     public static void register(IEventBus eventBus) {
