@@ -31,6 +31,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.INFECTION_LEATHER.get());
                         output.accept(ModItems.INFECTION_MEAT.get());
                         output.accept(ModItems.INFECTION_HEART.get());
+                        output.accept(ModItems.INFECTION_BONE.get());
                         output.accept(ModItems.LONG_ARM_BEAST_TOOTH.get());
                         output.accept(ModBlocks.HOST_REMAINS_SMALL.get());
                         output.accept(ModBlocks.HOST_REMAINS_MEDIUM.get());

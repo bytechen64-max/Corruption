@@ -64,6 +64,12 @@ public class ModItems {
                     new Item.Properties()
                             .stacksTo(64)
             ));
+    public static final RegistryObject<Item> INFECTION_BONE = ITEMS.register(
+            "infection_bone",
+            () -> new InfectionBone(
+                    new Item.Properties()
+                            .stacksTo(64)
+            ));
     public static final RegistryObject<Item> LONG_ARM_BEAST_TOOTH = ITEMS.register(
             "long_arm_beast_tooth",
             () -> new LongArmBeastTooth(

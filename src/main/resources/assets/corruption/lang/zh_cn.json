@@ -33,6 +33,8 @@
   "item.corruption.infection_leather": "腐烂皮革",
   "item.corruption.infection_meat": "腐烂的肉",
   "item.corruption.infection_heart": "腐烂的心脏",
+  "item.corruption.infection_bone": "腐烂的骨头",
+
 
   "block.corruption.host_remains_small": "小型腐化种残骸",
   "block.corruption.host_remains_medium": "中型腐化种残骸",

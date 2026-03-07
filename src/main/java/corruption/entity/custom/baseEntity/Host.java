@@ -38,6 +38,10 @@ public class Host extends BaseMob{
             this.spawnAtLocation(new ItemStack(ModItems.INFECTION_MEAT.get()));
             this.spawnAtLocation(new ItemStack(ModItems.INFECTION_HEART.get()));
         }
+        if(this.randomPercentage(50))
+        {
+            this.spawnAtLocation(new ItemStack(ModItems.INFECTION_BONE.get()));
+        }
 
     }
 }
