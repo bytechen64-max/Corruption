@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b231a877-368a-4ea3-bedd-8582f4ec7dbc" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/corruption/capability/BiomassCapabilityImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/corruption/capability/BiomassCapabilityProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/corruption/capability/IBiomassCapability.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/corruption/capability/ModCapabilities.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/corruption/client/ClientEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/corruption/client/ClientForgeEvents.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/corruption/client/gui/BiomassStrip.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/corruption/client/registry/ClientRenderRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/corruption/config/data/ShaderConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/corruption/network/s2c/BiomassPaket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/corruption/overworld/registry/RegisterBlockEntitis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/corruption/overworld/registry/RegisterParticles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/corruption/overworld/registry/blocks/Extractor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/corruption/overworld/registry/blocks/base/Remains.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/corruption/overworld/registry/blocks/blockentitis/ExtractorBlockEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/corruption/overworld/registry/entitis/refactored/Rafactored.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/corruption/overworld/registry/items/BiomassBottle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/corruption/overworld/registry/items/base/InfectionItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/corruption/overworld/registry/items/base/SevenSins.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/corruption/overworld/registry/particles/Bloody.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/corruption/overworld/registry/particles/Meat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/corruption/utils/combat/CorruptionAreaAttackUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/corruption/utils/combat/CorruptionDamageUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/corruption/utils/entity/DeadEffectUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/blockstates/degenerate_remains_large.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/blockstates/degenerate_remains_medium.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/blockstates/degenerate_remains_small.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/blockstates/extractor.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/blockstates/host_remains_large.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/blockstates/host_remains_medium.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/blockstates/host_remains_small.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/blockstates/infection_coal_ore.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/blockstates/infection_copper_ore.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/blockstates/infection_diamond_ore.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/blockstates/infection_emerald_ore.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/blockstates/infection_gold_ore.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/blockstates/infection_iron_ore.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/blockstates/infection_lapis_ore.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/blockstates/infection_redstone_ore.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/blockstates/refactored_remains_large.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/blockstates/refactored_remains_medium.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/blockstates/refactored_remains_small.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/lang/en_us.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/lang/ja_jp.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/lang/ko_kr.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/lang/zh_cn.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/models/block/degenerate_remains_large.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/models/block/degenerate_remains_medium.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/models/block/degenerate_remains_small.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/models/block/extractor.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/models/block/host_remains_large.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/models/block/host_remains_medium.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/models/block/host_remains_small.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/models/block/infection_coal_ore.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/models/block/infection_copper_ore.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/models/block/infection_diamond_ore.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/models/block/infection_emerald_ore.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/models/block/infection_gold_ore.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/models/block/infection_iron_ore.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/models/block/infection_lapis_ore.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/models/block/infection_redstone_ore.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/models/block/refactored_remains_large.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/models/block/refactored_remains_medium.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/models/block/refactored_remains_small.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/models/item/bearer_spawn_egg.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/models/item/bioadhesive_bottle.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/models/item/biomass_bottle.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/models/item/chip_extract.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/models/item/chip_null.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/models/item/chip_scan.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/models/item/corruption_logo.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/models/item/corruption_template.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/models/item/degenerate_pig_spawn_egg.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/models/item/degenerate_remains_large.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/models/item/degenerate_remains_medium.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/models/item/degenerate_remains_small.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/models/item/degenerate_zombie_spawn_egg.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/models/item/dried_infection_meat.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/models/item/empty_bottle.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/models/item/extractor.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/models/item/host_remains_large.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/models/item/host_remains_medium.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/models/item/host_remains_small.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/models/item/humus_column_spawn_egg.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/models/item/infection_bone.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/models/item/infection_brain.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/models/item/infection_coal_ore.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/models/item/infection_copper_ore.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/models/item/infection_cow_spawn_egg.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/models/item/infection_diamond_ore.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/models/item/infection_emerald_ore.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/models/item/infection_gold_ore.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/models/item/infection_heart.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/models/item/infection_iron_ore.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/models/item/infection_lapis_ore.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/models/item/infection_leather.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/models/item/infection_meat.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/models/item/infection_pig_spawn_egg.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/models/item/infection_player_spawn_egg.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/models/item/infection_redstone_ore.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/models/item/infection_sheep_spawn_egg.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/models/item/infection_skeleton_spawn_egg.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/models/item/infection_spider_spawn_egg.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/models/item/infection_villager_spawn_egg.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/models/item/infection_zombie_spawn_egg.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/models/item/living_hoe.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/models/item/long_arm_beast_head.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/models/item/long_arm_beast_spawn_egg.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/models/item/long_arm_beast_tooth.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/models/item/odd_salt.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/models/item/phase_display.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/models/item/refactored_heart.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/models/item/refactored_remains_large.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/models/item/refactored_remains_medium.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/models/item/refactored_remains_small.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/models/item/shocker_spawn_egg.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/models/item/vice_template.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/models/s" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/particles/bloody.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/particles/meat.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/shaders/core/biomass_fill.fsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/shaders/core/biomass_fill.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/shaders/core/biomass_fill.vsh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/textures/block/degenerate_remains_large.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/textures/block/degenerate_remains_large_side.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/textures/block/degenerate_remains_medium.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/textures/block/degenerate_remains_medium_side.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/textures/block/degenerate_remains_small.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/textures/block/degenerate_remains_small_side.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/textures/block/extractor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/textures/block/host_remains_large.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/textures/block/host_remains_large_side.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/textures/block/host_remains_medium.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/textures/block/host_remains_medium_side.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/textures/block/host_remains_small.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/textures/block/host_remains_small_side.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/textures/block/infection_coal_ore.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/textures/block/infection_copper_ore.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/textures/block/infection_diamond_ore.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/textures/block/infection_emerald_ore.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/textures/block/infection_gold_ore.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/textures/block/infection_iron_ore.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/textures/block/infection_lapis_ore.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/textures/block/infection_redstone_ore.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/textures/block/refactored_remains_large.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/textures/block/refactored_remains_large_side.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/textures/block/refactored_remains_medium.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/textures/block/refactored_remains_medium_side.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/textures/block/refactored_remains_small.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/textures/block/refactored_remains_small_side.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/textures/gui/biomass_bar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/textures/item/bearer_spawn_egg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/textures/item/bioadhesive_bottle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/textures/item/biomass_bottle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/textures/item/chip_extract.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/textures/item/chip_null.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/textures/item/chip_scan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/textures/item/corruption_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/textures/item/corruption_template.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/textures/item/corruption_template_light.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/textures/item/degenerate_pig_spawn_egg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/textures/item/degenerate_zombie_spawn_egg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/textures/item/dried_infection_meat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/textures/item/empty_bottle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/textures/item/humus_column_spawn_egg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/textures/item/infection_bone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/textures/item/infection_brain.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/textures/item/infection_cow_spawn_egg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/textures/item/infection_heart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/textures/item/infection_leather.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/textures/item/infection_meat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/textures/item/infection_pig_spawn_egg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/textures/item/infection_player_spawn_egg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/textures/item/infection_sheep_spawn_egg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/textures/item/infection_skeleton_spawn_egg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/textures/item/infection_spider_spawn_egg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/textures/item/infection_villager_spawn_egg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/textures/item/infection_zombie_spawn_egg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/textures/item/living_hoe.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/textures/item/long_arm_beast_head.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/textures/item/long_arm_beast_spawn_egg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/textures/item/long_arm_beast_tooth.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/textures/item/odd_salt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/textures/item/phase_display_eight.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/textures/item/phase_display_five.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/textures/item/phase_display_four.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/textures/item/phase_display_one.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/textures/item/phase_display_seven.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/textures/item/phase_display_six.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/textures/item/phase_display_three.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/textures/item/phase_display_two.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/textures/item/phase_display_zero.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/textures/item/refactored_heart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/textures/item/shocker_spawn_egg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/textures/item/vice_template.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/textures/particle/bloody.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/textures/particle/meat.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/corruption/client/entity/IGeoLayerProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/corruption/client/entity/IGeoLayerProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/corruption/client/entity/IGeoModelBehavior.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/corruption/client/entity/IGeoModelBehavior.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/corruption/overworld/registry/entitis/refactored/LongArmBeast.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/corruption/overworld/registry/entitis/refactored/LongArmBeast.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/corruption/Corruption.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/corruption/Corruption.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/corruption/client/entity/IGeoResources.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/corruption/client/entity/IGeoResources.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/corruption/client/entity/model/GeoBaseModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/corruption/client/entity/model/GeoBaseModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/corruption/client/entity/render/GeoBaseRender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/corruption/client/entity/render/GeoBaseRender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/corruption/config/RrsHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/corruption/config/ConfigHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/corruption/event/SpreadEventHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/corruption/event/SpreadEventHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/corruption/overworld/data/SyncDataHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/corruption/overworld/data/SyncDataHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/corruption/overworld/data/level/BiomeCorruptionData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/corruption/overworld/data/level/BiomeCorruptionData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/corruption/overworld/registry/EntityTypeRegistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/corruption/overworld/registry/EntityTypeRegistry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/corruption/overworld/registry/RegisterBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/corruption/overworld/registry/RegisterBlock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/corruption/overworld/registry/RegisterItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/corruption/overworld/registry/RegisterItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/corruption/overworld/registry/RegisterTab.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/corruption/overworld/registry/RegisterTab.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/corruption/overworld/registry/block/CorruptionDirtBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/corruption/overworld/registry/blocks/CorruptionDirtBlock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/corruption/overworld/registry/block/CorruptionGrassBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/corruption/overworld/registry/blocks/CorruptionGrassBlock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/corruption/overworld/registry/block/CorruptionVariableHeightCropBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/corruption/overworld/registry/blocks/CorruptionVariableHeightCropBlock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/corruption/overworld/registry/block/base/AbstractSpreadingBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/corruption/overworld/registry/blocks/base/AbstractSpreadingBlock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/corruption/overworld/registry/block/base/BiomeCorruptionProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/corruption/overworld/registry/blocks/base/BiomeCorruptionProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/corruption/overworld/registry/entitis/InfectionBat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/corruption/overworld/registry/entitis/host/InfectionBat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/corruption/overworld/registry/entitis/base/AbstractCorruptionEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/corruption/overworld/registry/entitis/base/AbstractCorruptionEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/corruption/overworld/registry/entitis/base/CorruptionEntityManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/corruption/overworld/registry/entitis/base/CorruptionEntityManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/corruption/overworld/registry/entitis/base/CorruptionMobType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/corruption/overworld/registry/entitis/base/CorruptionMobType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/corruption/geo/long_arm_beast.geo.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/corruption/geo/long_arm_beast.geo.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="corruption" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="corruption" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="corruption" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="forgegradle runs" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="corruption" type="f1a62948:ProjectNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="3BT7addoaAN3juc4CA6xOiV22Li" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.Corruption-Forge1.20.1 [createMcpToSrg].executor": "Run",
+    "Gradle.D:/mod dev/Corruption/Corruption/corruption-corruption/corruption-corruption [createMcpToSrg].executor": "Run",
+    "Gradle.corruption-corruption [createMcpToSrg].executor": "Run",
+    "Gradle.corruption-corruption [runClient].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/mod dev/Corruption/Corruption/corruption-forge1.20.1/src/main/resources/assets/corruption/textures",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "settings.sync",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\mod dev\Corruption\Corruption\corruption-forge1.20.1\src\main\resources\assets\corruption\textures" />
+      <recent name="D:\mod dev\Corruption\Corruption\corruption-forge1.20.1\src\main\resources\assets\corruption" />
+      <recent name="D:\mod dev\Corruption\Corruption\corruption-forge1.20.1\src\main\java\com\corruption\overworld\registry\particles" />
+      <recent name="D:\mod dev\Corruption\Corruption\corruption-forge1.20.1\src\main\resources\assets\corruption\models" />
+      <recent name="D:\mod dev\Corruption\Corruption\corruption-forge1.20.1\src\main\resources\assets\corruption\shaders\core" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\mod dev\Corruption\Corruption\corruption-forge1.20.1\src\main\resources\assets\corruption\geo" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.corruption.utils.entity" />
+      <recent name="com.corruption.overworld.registry" />
+      <recent name="com.corruption.client" />
+      <recent name="com.corruption.network.s2c" />
+      <recent name="com.corruption.overworld.registry.items" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="corruption-corruption [runClient]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="runClient" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.corruption-corruption [runClient]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.25410.129" />
+        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-IU-251.25410.129" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="b231a877-368a-4ea3-bedd-8582f4ec7dbc" name="更改" comment="" />
+      <created>1774501270404</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1774501270404</updated>
+      <workItem from="1774501271662" duration="1322000" />
+      <workItem from="1774502829161" duration="46000" />
+      <workItem from="1774534927602" duration="2544000" />
+      <workItem from="1774587883381" duration="2948000" />
+      <workItem from="1774621089246" duration="103000" />
+      <workItem from="1774621204088" duration="3763000" />
+      <workItem from="1774693636670" duration="595000" />
+      <workItem from="1774699495685" duration="797000" />
+      <workItem from="1774747529419" duration="5749000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
